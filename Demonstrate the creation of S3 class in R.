@@ -1,0 +1,19 @@
+# Define an S3 class
+Person <- function(name, age) {
+  obj <- list(name = name, age = age)
+  class(obj) <- "Person"
+  return(obj)
+}
+
+# Create an instance of S3 class
+p1 <- Person("John Doe", 25)
+
+# Define a print method for the S3 class
+print.Person <- function(obj) {
+  cat("Person Details:\n")
+  cat("Name:", obj$name, "\n")
+  cat("Age:", obj$age, "\n")
+}
+
+# Use the custom print method
+print(p1)
