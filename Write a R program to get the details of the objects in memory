@@ -1,0 +1,7 @@
+# List all objects in memory
+cat("Objects in memory:\n")
+print(ls())
+
+# Show details of each object
+cat("\nDetails of objects:\n")
+print(ls.str())
