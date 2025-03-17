@@ -1,0 +1,15 @@
+# Define matrices
+A <- matrix(c(2, 4, 6, 3, 5, 7, 1, 8, 9), nrow=3, byrow=TRUE)
+B <- matrix(c(1, 3, 5, 2, 4, 6, 7, 8, 9), nrow=3, byrow=TRUE)
+
+# Perform basic matrix operations
+sum_matrix <- A + B
+diff_matrix <- A - B
+prod_matrix <- A %*% B  # Matrix multiplication
+
+# Print results
+cat("Matrix A:\n"); print(A)
+cat("Matrix B:\n"); print(B)
+cat("Sum of A and B:\n"); print(sum_matrix)
+cat("Difference of A and B:\n"); print(diff_matrix)
+cat("Product of A and B:\n"); print(prod_matrix)
