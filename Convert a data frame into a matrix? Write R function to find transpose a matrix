@@ -1,0 +1,12 @@
+# Create a data frame
+df <- data.frame(ID = c(1,2,3), Score = c(90,85,78))
+
+# Convert to matrix
+matrix_df <- as.matrix(df)
+
+# Transpose the matrix
+transpose_matrix <- t(matrix_df)
+
+# Print results
+cat("Converted Matrix:\n"); print(matrix_df)
+cat("Transpose of Matrix:\n"); print(transpose_matrix)
