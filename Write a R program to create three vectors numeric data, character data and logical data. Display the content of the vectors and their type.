@@ -1,0 +1,9 @@
+# Creating vectors
+num_vector <- c(10, 20, 30, 40, 50)
+char_vector <- c("Apple", "Banana", "Cherry", "Date", "Elderberry")
+log_vector <- c(TRUE, FALSE, TRUE, FALSE, TRUE)
+
+# Display content and types
+cat("Numeric Vector:\n", num_vector, "\nType:", typeof(num_vector), "\n\n")
+cat("Character Vector:\n", char_vector, "\nType:", typeof(char_vector), "\n\n")
+cat("Logical Vector:\n", log_vector, "\nType:", typeof(log_vector), "\n\n")
