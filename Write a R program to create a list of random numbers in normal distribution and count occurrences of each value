@@ -1,0 +1,13 @@
+# Generate a list of 100 random numbers from a normal distribution
+set.seed(42)  # Ensuring reproducibility
+random_numbers <- rnorm(100, mean = 50, sd = 10)
+
+# Round numbers to the nearest integer for counting
+rounded_numbers <- round(random_numbers)
+
+# Count occurrences
+occurrences <- table(rounded_numbers)
+
+# Print the occurrences
+cat("Occurrences of each value:\n")
+print(occurrences)
