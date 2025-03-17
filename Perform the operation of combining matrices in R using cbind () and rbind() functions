@@ -1,0 +1,14 @@
+# Creating two matrices
+mat1 <- matrix(1:6, nrow = 2, ncol = 3)
+mat2 <- matrix(7:12, nrow = 2, ncol = 3)
+
+# Column-wise binding
+combined_cbind <- cbind(mat1, mat2)
+cat("Matrix combined using cbind():\n")
+print(combined_cbind)
+
+# Row-wise binding
+mat3 <- matrix(13:18, nrow = 3, ncol = 2)
+combined_rbind <- rbind(mat1, mat3)
+cat("Matrix combined using rbind():\n")
+print(combined_rbind)
