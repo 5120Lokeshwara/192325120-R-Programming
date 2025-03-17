@@ -1,0 +1,9 @@
+# Define vectors
+enrolled_students <- c(101, 102, 103, 104, 105, 106, 107)
+passed_students <- c(101, 103, 105, 107)
+
+# Identify students who enrolled but did not pass
+did_not_pass <- setdiff(enrolled_students, passed_students)
+
+# Print the result
+cat("Students who enrolled but did not pass:", did_not_pass, "\n")
