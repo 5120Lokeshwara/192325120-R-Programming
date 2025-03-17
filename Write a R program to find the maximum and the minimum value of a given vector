@@ -1,0 +1,7 @@
+# Create a random vector
+vec <- sample(1:100, 10, replace=TRUE)
+cat("Vector:\n", vec, "\n")
+
+# Find maximum and minimum values
+cat("Maximum value:", max(vec), "\n")
+cat("Minimum value:", min(vec), "\n")
