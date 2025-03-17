@@ -1,0 +1,8 @@
+# Creating a list
+my_list <- list(g1 = "Hello", g2 = 123, g3 = TRUE)
+
+# Adding a new item
+my_list$g4 <- "R Prog"
+
+# Print updated list
+print(my_list)
