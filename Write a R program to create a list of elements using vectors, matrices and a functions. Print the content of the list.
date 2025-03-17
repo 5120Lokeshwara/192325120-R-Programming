@@ -1,0 +1,25 @@
+# Define components
+num_vector <- c(1, 2, 3, 4, 5)
+char_vector <- c("A", "B", "C", "D", "E")
+
+# Create a matrix
+mat <- matrix(1:6, nrow = 2, ncol = 3)
+
+# Define a function
+my_function <- function(x) {
+  return(x^2)
+}
+
+# Create a list with all elements
+my_list <- list(numbers = num_vector, 
+                characters = char_vector, 
+                matrix = mat, 
+                function_example = my_function)
+
+# Print the list
+cat("List Content:\n")
+print(my_list)
+
+# Apply function from list
+cat("\nApplying Function to 5:\n")
+print(my_list$function_example(5))
